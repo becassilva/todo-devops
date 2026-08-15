@@ -25,6 +25,9 @@ Demonstrar, na prática, a aplicação de conceitos e ferramentas de DevOps e In
 
 ```text
 todo-devops/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── src/
 │   └── main.py
 ├── tests/
@@ -32,6 +35,7 @@ todo-devops/
 ├── .dockerignore
 ├── .gitignore
 ├── Dockerfile
+├── LICENSE
 └── README.md
 ```
 
@@ -138,11 +142,13 @@ Esse processo permite revisar as alterações antes da integração com a branch
 
 ## Integração Contínua
 
-O projeto contará com uma pipeline de Integração Contínua utilizando GitHub Actions.
+O projeto utiliza uma pipeline de Integração Contínua utilizando GitHub Actions.
 
-A pipeline será configurada para executar automaticamente os testes do projeto sempre que novas alterações forem enviadas ao repositório ou quando um Pull Request for criado ou atualizado.
+A pipeline é executada automaticamente quando novas alterações são enviadas ao repositório ou quando um Pull Request é criado ou atualizado nas branches configuradas.
 
-A automação tem como objetivo identificar problemas no código antes da integração das alterações.
+Durante a execução, a pipeline realiza o download do código, configura o ambiente Python, instala o Pytest e executa os testes automatizados do projeto.
+
+A automação permite identificar problemas no código antes da integração das alterações, contribuindo para a qualidade e a confiabilidade do processo de desenvolvimento.
 
 ## Organização do projeto
 
