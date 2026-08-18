@@ -10,8 +10,7 @@ Além da aplicação, o projeto foi estruturado utilizando práticas de DevOps, 
 
 ## Objetivo
 
-Demonstrar, na prática, a aplicação de conceitos e ferramentas de DevOps e Integração Contínua em um projeto de software, buscando melhorar a organização, a colaboração, a padronização e a confiabilidade do processo de desenvolvimento.
-O projeto busca aplicar os princípios de DevOps ao longo de todo o ciclo de desenvolvimento.
+Demonstrar, na prática, a aplicação de conceitos e ferramentas de DevOps e Integração Contínua em um projeto de software, buscando organização, automação e melhoria contínua.
 
 ## Tecnologias utilizadas
 
